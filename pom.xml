@@ -176,9 +176,9 @@
                 <version>2.3.9</version>
             </dependency>
             <dependency>
-                <groupId>com.mchange.v2</groupId>
+                <groupId>com.mchange</groupId>
                 <artifactId>c3p0</artifactId>
-                <version>0.9.5.1</version>
+                <version>0.9.5.5</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -254,6 +254,7 @@ org.eclipse.jdt.core.compiler.compliance=1.7
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.2</version>
                 <configuration>
                     <source>${jdk.version}</source>
                     <target>${jdk.version}</target>
